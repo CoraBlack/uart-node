@@ -54,6 +54,7 @@ namespace godot {
 
         auto set_port(godot::String port) -> void {
             this->dev_port = port;
+            this->open_port();
         }
 
         auto get_port() -> godot::String {
