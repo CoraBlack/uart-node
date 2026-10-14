@@ -1,0 +1,4 @@
+[submodule "addons/uart-dev/godot-cpp"]
+	path = addons/uart-dev/godot-cpp
+	url = https://github.com/godotengine/godot-cpp.git
+	branch = 4.5

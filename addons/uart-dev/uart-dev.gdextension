@@ -1,0 +1,11 @@
+[configuration]
+entry_symbol = "uart_dev_library_init"
+compatibility_minimum = "4.5"
+
+[libraries]
+linux.debug.x86_64 = "./bin/libuart_dev.so"
+linux.release.x86_64 = "./bin/libuart_dev.so"
+linux.debug.arm64 = "./bin/libuart_dev.so"
+linux.release.arm64 = "./bin/libuart_dev.so"
+; linux.debug.rv64 = "./bin/libgdexample.linux.template_debug.rv64.so"
+; linux.release.rv64 = "./bin/libgdexample.linux.template_release.rv64.so"

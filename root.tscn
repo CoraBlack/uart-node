@@ -1,0 +1,9 @@
+[gd_scene format=3 uid="uid://cvkckq2mdn7uw"]
+
+[ext_resource type="Script" uid="uid://bvglx7sr4kkxr" path="res://root.gd" id="1_pq8q7"]
+
+[node name="root" type="Node2D" unique_id=2006602481 node_paths=PackedStringArray("uart")]
+script = ExtResource("1_pq8q7")
+uart = NodePath("UartDev")
+
+[node name="UartDev" type="UartDev" parent="." unique_id=1913343592]
