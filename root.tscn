@@ -7,3 +7,5 @@ script = ExtResource("1_pq8q7")
 uart = NodePath("UartDev")
 
 [node name="UartDev" type="UartDev" parent="." unique_id=1913343592]
+
+[connection signal="on_port_recv" from="UartDev" to="." method="_on_uart_dev_on_port_recv"]

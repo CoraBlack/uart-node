@@ -16,6 +16,7 @@ add_library(uart_dev SHARED)
 
 target_sources(uart_dev PRIVATE
     ${CMAKE_CURRENT_SOURCE_DIR}/src/module_register.cpp
+    ${CMAKE_CURRENT_SOURCE_DIR}/src/uart-dev.cpp
 )
 
 target_include_directories(uart_dev PRIVATE

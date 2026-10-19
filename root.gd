@@ -14,3 +14,6 @@ func _process(delta: float) -> void:
 			print("A is sent")
 		else:
 			print("Uart is not avaliable")
+
+func _on_uart_dev_on_port_recv(byte: int) -> void:
+	print((char(byte)))
